@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа 1 - Веб-программирование</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Лабораторная работа №1</h1>
+
+    <!-- Секция Ping -->
+    <div class="section">
+        <h2>1. Результат команды ping для kubsu.ru</h2>
+        <img src="ping.jpg" alt="Результат выполнения команды ping">
+        <p>Определение IP-адреса домена kubsu.ru</p>
+    </div>
+
+    <!-- Секция NSLookup -->
+    <div class="section">
+        <h2>2. Результат команды nslookup</h2>
+        <img src="nslookup.jpg" alt="A- и MX-записи домена">
+        <p>A-запись (IPv4) и MX-записи (почтовые серверы) для kubsu.ru</p>
+    </div>
+
+    <!-- Секция Whois -->
+    <div class="section">
+        <h2>3. Результат команды whois</h2>
+        <img src="whois.jpg" alt="Информация WHOIS">
+        <p>Дата регистрации доменов kubsu.ru и kubsu-dev.ru</p>
+    </div>
+</body>
+</html>
